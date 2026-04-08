@@ -16,5 +16,5 @@ jobs:
         with:
           egress-policy: audit
       - name: Test
-       run: |
+        run: |
          curl https://google.com
